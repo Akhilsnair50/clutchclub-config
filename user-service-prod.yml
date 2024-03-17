@@ -1,0 +1,22 @@
+build:
+  version:"0.1"
+
+user:
+  message: "welcome to user related prod api"
+  contactDetails:
+    name: "akhil"
+    email: "akhilsnair50@clutchclub.com"
+
+spring:
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      password: 1234
+      url: jdbc:mysql://localhost:3306/testbank
+      username: root
+    jpa:
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQLDialect
+      show-sql: true

@@ -1,0 +1,14 @@
+build:
+  version:"0.1"
+
+user:
+  message: "welcome to user related api"
+  contactDetails:
+    name: "akhil"
+    email: "akhilsnair50@clutchclub.com"
+
+spring:
+  application:
+    name: "user-service"
+  profiles:
+    active: "prod"
