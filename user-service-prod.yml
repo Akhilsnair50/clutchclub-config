@@ -2,7 +2,7 @@ build:
   version:"0.1"
 
 user:
-  message: "welcome you have reached user related production api"
+  message: "welcome you have reached user related prod api"
   contactDetails:
     name: "akhil"
     email: "{cipher}68b5411f72528764951b2332d3f91fb0022ab47ba0387befbd4beda74f33787f7ddfee5d6d567a46d824c86cef66c522"
